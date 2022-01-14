@@ -1,0 +1,79 @@
+/* font-style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+   
+}
+header{
+    margin: 90px 0 60px;
+}
+.container{
+    max-width: 1500px;
+    width: 95%;
+    margin: 0 auto;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header nav .logo a{
+    color: #3a3a3a;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+header nav ul{
+    display: flex;
+    gap: 20px;
+}
+header nav ul li{
+    font-size: 16px;
+    color: #3a3a3a;
+}
+/* hero-area styleing start */
+#hero-area{
+
+}
+#hero-area .hero-area-contant{
+    display: flex;
+    align-items: center;
+}
+.hero-left h1{
+    font-size: 52px;
+    font-weight: bolder;
+}
+.hero-left p{
+    font-size: 16px;
+}
+.hero-left a{
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 45px;
+    margin-top: 30px;
+    border-radius: 25px;
+    display:  inline-block;
+    background-color: #E02B6C;
+}
+.hero-left a i{
+    font-size: 20px;
+    margin-left: 10px;
+    transition: .3s;
+}
+.hero-left a:hover i{
+    margin-left: 20px;
+}
+.hero-area-contant .hero-left{
+   width: 50%;
+   justify-content: space-between;
+}
+.hero-area-contant .hero-right{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
