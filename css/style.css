@@ -8,7 +8,10 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-   
+    background-color: #FFFFFF;
+}
+img{
+   max-width: 100%;
 }
 header{
     margin: 40px 0 60px;
@@ -54,16 +57,19 @@ header nav ul li{
 .hero-left a{
     color: #fff;
     font-size: 16px;
-    padding: 15px 45px;
+    padding: 10px 60px 10px 30px;
     margin-top: 30px;
-    border-radius: 25px;
+    border-radius: 30px;
+    position: relative;
     display:  inline-block;
     background-color: #E02B6C;
 }
 .hero-left a i{
+    position: absolute;
     font-size: 20px;
     margin-left: 10px;
     transition: .3s;
+    top: 13px;
 }
 .hero-left a:hover i{
     margin-left: 20px;
@@ -76,4 +82,46 @@ header nav ul li{
     display: flex;
     width: 50%;
     justify-content: center;
+}
+#collection .collection-list{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat( 3, minmax(250px, 1fr) );
+
+}
+#collection h2{
+    font-size: 28px;
+    color: #3a3a3a;
+    text-align: center;
+    margin-bottom: 45px;
+}
+#collection .collection-list .collection-box{
+    background-color: #fefefe;
+    padding: 15px 15px 40px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #ddd;
+}
+#collection .collection-list .collection-box h3{
+    font-size: 28px;
+}
+#collection .collection-list .collection-box .price{
+    font-size: 24px;
+    margin-top: 10px;
+}
+#collection .collection-list .collection-box .rating{
+    font-size: 14px;
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+#collection .collection-list .collection-box .rating i{
+    color: #FC9930;
+}
+#collection .collection-list .collection-box .rating span{
+    font-weight: bold;
+    color: #787885;
+}
+#collection .collection-list .collection-box .details{
+    font-size: 14px;
+    color: #787885;
 }
